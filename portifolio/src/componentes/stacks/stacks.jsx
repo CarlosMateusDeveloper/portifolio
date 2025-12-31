@@ -2,26 +2,24 @@ import './stacks.css'
 import Marquee from "react-fast-marquee"; 
 export default function Stacks(){
     return(
-        <section  className='stacks' id='stacks'>
-            <div className="marquee-wrapper">
-      <Marquee speed={120} gradient={false} >
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" />
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" />
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" />
-        <i className="devicon-react-original colored" />
-        <i class="devicon-nodejs-plain-wordmark colored"></i>
+        <section  className='stacks py-5' id='stacks'>
+            <div className="marquee-wrapper my-5 py-5">
+              <Marquee className='mt-5' speed={120} gradient={false} >
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" />
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" />
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" />
+                <i className="devicon-react-original colored" />
+                <i class="devicon-nodejs-plain-wordmark colored"></i>
           
-        <i className="devicon-bootstrap-plain colored" />
-        <i className="devicon-tailwindcss-plain colored" />
-        <i className="devicon-sass-original colored"></i>
+                <i className="devicon-bootstrap-plain colored" />
+                <i className="devicon-tailwindcss-plain colored" />
+                <i className="devicon-sass-original colored"></i>
        
         
-        <i className="devicon-git-plain-wordmark colored"></i>
-        
-        
-      </Marquee>
-      <Marquee speed={120} gradient={false} >
+                <i className="devicon-git-plain-wordmark colored"></i>
+              </Marquee>
+      <Marquee className='mb-5' speed={120} gradient={false} >
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" />
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/numpy/numpy-original.svg" />
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pandas/pandas-original-wordmark.svg" />
