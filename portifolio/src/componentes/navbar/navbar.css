@@ -69,7 +69,6 @@
   filter: brightness(0) invert(0.2) sepia(0.75) saturate(4000%) hue-rotate(355deg); /* aumenta levemente */
 }
 
-
 @media (max-width: 768px){
     .principal{
         padding: 0%!important;

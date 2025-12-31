@@ -25,6 +25,7 @@ export default function Projects() {
                         <CardProject 
                        img={sheikhImg}
                        title="Sistema de Gestão de Poços de Petróleo"
+                       description={'Portfólio web desenvolvido para empresa de engenharia civil, adaptação para diferentes dispositivos.'}
                        link="#"
                        button='Em breve'
                        />
@@ -33,7 +34,8 @@ export default function Projects() {
                     <div className='project-content col-12 col-md-6 col-lg-4'>
                         <CardProject 
                        img={painel}
-                       title="Painel de Monitoramento de dados"
+                       title="Sistema de gestão de clinicas"
+                       description={'Portfólio web desenvolvido para empresa de engenharia civil, adaptação para diferentes dispositivos.'}
                        link=""
                         button='Em breve'
                         />
