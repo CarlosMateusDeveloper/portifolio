@@ -17,7 +17,7 @@ export default function Maindiv() {
 
             <a className='d-inline-flex justify-content-center align-items-center border rounded-circle border-danger ' href="https://github.com/CarlosMateusDeveloper" target="_blank"><i className="bi bi-github text-danger"></i></a>
 
-            <a className='d-inline-flex justify-content-center align-items-center border rounded-circle border-danger ' href="https://www.instagram.com/dev_carlos_mateus" target="_blank"><i className="bi bi-instagram text-danger btn-hover"></i></a>
+            <a className='d-inline-flex justify-content-center align-items-center border rounded-circle border-danger ' href="https://www.instagram.com/mateus.goncalves.code/" target="_blank"><i className="bi bi-instagram text-danger btn-hover"></i></a>
            </div>
           </div> 
         </div>
