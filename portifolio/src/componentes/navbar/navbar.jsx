@@ -40,7 +40,7 @@ export default function Navbar() {
               <Nav.Link as={HashLink} to="/#about">Sobre mim</Nav.Link>
               <Nav.Link as={HashLink} to="/#projects">Projetos</Nav.Link>
               <Nav.Link as={HashLink} to="/#contact">Contato</Nav.Link>
-              <button className='nav-link text-white'></button>
+              <button className='nav-link'></button>
             </Nav>
           </BootstrapNavbar.Collapse>
         </Container>

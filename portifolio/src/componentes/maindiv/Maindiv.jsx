@@ -6,7 +6,7 @@ export default function Maindiv() {
         <div className="home-content reveal d-fex flex-column justify-content-center align-items-center mb-5 pe-md-5">
           <h1 className='text-center text-lg-end '><span>Mateus Gonçalves</span> </h1>  
           <h3 className="typing-text text-center text-lg-end">Desenvolvedor de Software</h3>
-          <p className='text-secondary fs-5 text-end ms-0 ms-md-auto'>Desenvolvimento de soluções de software. Especialista em React e python  na criação de aplicações web e automações de processos.</p>
+          <p className='text-secondary fs-5 text-end ms-0 ms-md-auto'>Desenvolvimento de automações de processos e analises de dados. Especialista em desenvolvimento de software usando a linguagem python.</p>
 
           <div className="social d-flex gap-3 justify-content-end  mb-5 pb-4">
             

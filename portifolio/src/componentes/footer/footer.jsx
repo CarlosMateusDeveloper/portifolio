@@ -7,7 +7,7 @@ export default function Footer() {
                  <Icon icone={"bi bi-linkedin "} link={"https://www.linkedin.com/in/carlos-gonçalves-b38701211"}/>
                  <Icon icone={"bi bi-instagram"} link={"https://www.instagram.com/dev_carlos_mateus"}/>
                  <Icon icone={"bi bi-twitter-x"} link={"https://x.com/MateusGona80865"}/>
-                 <Icon icone={"bi bi-tiktok"} link={"instagram.com/dev_carlos_mateus"}/>
+                 <Icon icone={"bi bi-tiktok"} link={"https://www.tiktok.com/@mateusgoncalvesdeveloper"}/>
             </div>
             <p className='text-white mt-2'>© 2025 Mateus Gonçalves | All rights reserved.</p>
         </footer>
