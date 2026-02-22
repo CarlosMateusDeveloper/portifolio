@@ -24,10 +24,10 @@ export default function Projects() {
                         {/*Card 2*/}
                         <CardProject 
                        img={sheikhImg}
-                       title="Sistema de Gestão de Poços de Petróleo"
-                       description={'Portfólio web desenvolvido para empresa de engenharia civil, adaptação para diferentes dispositivos.'}
-                       link="#"
-                       button='Em breve'
+                       title="Automação de alimentação de planilha"
+                       description={'Automação que extrai dados de comprovantes bancários e alimenta uma planilha.'}
+                       link='https://github.com/CarlosMateusDeveloper/Data-IA'
+                       button='Acessar'
                        />
                     </div>
                         {/*Card 3*/}
