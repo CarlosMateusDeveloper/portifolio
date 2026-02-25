@@ -7,7 +7,7 @@ export default function CardProject({ title, link, img, description, button}) {
             <div className='px-2 mt-2 mt-lg-3 '>
               <h3 className='title text-start  '>{title}</h3>
               <p className='description text-start mt-0 mt-lg-3'>{description}</p>
-              <a className='btn btn-danger' href={link} target="_blank" rel="noreferrer">{button}  </a>
+              <a className='btn' href={link} target="_blank" rel="noreferrer">{button}  </a>
             </div>
         </div>
     </div>

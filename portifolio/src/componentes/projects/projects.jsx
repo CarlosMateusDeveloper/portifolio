@@ -1,7 +1,7 @@
 import './projects.css'
 import CardProject from './cardproject/cardproject'
 import buildImg from '../../assets/projectImg1.png'
-import sheikhImg from '../../assets/sheik.png'
+import dashboardImg from '../../assets/dashboard_resized.png'
 import painel from '../../assets/paineldedados.png'
 
 export default function Projects() {
@@ -23,7 +23,7 @@ export default function Projects() {
                     <div className="project-content col-12 col-md-6 col-lg-4">
                         {/*Card 2*/}
                         <CardProject 
-                       img={sheikhImg}
+                       img={dashboardImg}
                        title="Automação de alimentação de planilha"
                        description={'Automação que extrai dados de comprovantes bancários e alimenta uma planilha.'}
                        link='https://github.com/CarlosMateusDeveloper/Data-IA'

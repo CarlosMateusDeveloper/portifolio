@@ -19,6 +19,13 @@
 
 .btn{
     border-radius: 40px;
+    background-color: #d50202;
+    color: white;
+}
+
+.btn:hover{
+    background-color: #b60606;
+    color: white;
 }
 
 .card-content img{
