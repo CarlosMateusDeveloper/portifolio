@@ -1,12 +1,51 @@
-# React + Vite
+# Portfólio — Mateus Gonçalves
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Portfólio pessoal desenvolvido em React, apresentando quem sou, minhas
+principais stacks, projetos e formas de contato.
 
-Currently, two official plugins are available:
+## Tecnologias e bibliotecas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**Core**
+- [React 19](https://react.dev/)
+- [Vite 7](https://vite.dev/) — build tool e dev server
+- [React Router DOM 7](https://reactrouter.com/) — roteamento (`createBrowserRouter`)
+- [React Router Hash Link](https://github.com/rafgraph/react-router-hash-link) — navegação suave para âncoras (`#about`, `#projects`, `#contact`)
 
-## Expanding the ESLint configuration
+**UI / estilo**
+- [Bootstrap 5](https://getbootstrap.com/) + [React Bootstrap](https://react-bootstrap.netlify.app/) — grid, componentes (Navbar) e utilitários
+- [Bootstrap Icons](https://icons.getbootstrap.com/) — ícones (redes sociais, contato)
+- [Devicon](https://devicon.dev/) — ícones das tecnologias exibidas na seção de stacks
+- CSS puro por componente (sem framework de CSS-in-JS)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+**Interação / animação**
+- [React Fast Marquee](https://github.com/justin-chu/react-fast-marquee) — carrossel contínuo das stacks
+- [ScrollReveal](https://scrollrevealjs.org/) — animações de entrada ao rolar a página
+
+**Qualidade**
+- [ESLint 9](https://eslint.org/) (`eslint-plugin-react-hooks`, `eslint-plugin-react-refresh`)
+
+## Estrutura do projeto
+
+```
+src/
+├── componentes/     # Navbar, Hero (maindiv), About, Stacks, Projects, Contact, Footer, ícones
+├── pages/           # Home, página de IA (em construção), 404, erro
+├── router.jsx        # Definição das rotas
+├── utils/scroll/      # Inicialização do ScrollReveal
+└── assets/            # Imagens e ícones
+```
+
+## Como rodar localmente
+
+```bash
+npm install
+npm run dev       # servidor de desenvolvimento (Vite)
+npm run build     # build de produção
+npm run preview   # preview do build
+npm run lint      # checagem de lint
+```
+
+## Autor
+
+**Mateus Gonçalves** — Desenvolvedor de Software
+[LinkedIn](https://www.linkedin.com/in/carlos-gonçalves-b38701211/) · [GitHub](https://github.com/CarlosMateusDeveloper) · [Instagram](https://www.instagram.com/mateus.goncalves.code/)
