@@ -22,8 +22,7 @@ export default function About() {
           <div className="content d-flex flex-row ">
             <div id="c1" className="tab-content text-start ">
               <p className="about-text text-white  align-content-center fs-4 text-wrap ">
-                Me chamo Mateus Gonçalves sou Desenvolvedor em formação no curso Tecnólogo em Sistemas para Internet no IFRN. <br />
-                Me dedico a automações, sistemas web e mobile, bem como a criação de banco de dados. <hr />
+                Sou um empreendedor e foco em criar soluções que gerem valor real. Trabalho gerando valor e destacando o que eu faço dos demais. Não quero fazer mais do mesmo, e sim algo que esteja sempre na frente. <hr />
                 Crio soluções que organizam processos, corta custos e aumentam a eficiencia dentro de uma instituição.
               </p>
               <img className="rounded-3 animate-float img" src={foto} alt="" />
