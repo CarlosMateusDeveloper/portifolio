@@ -20,7 +20,7 @@
     text-shadow: 1px 1px 2px #9e2525;
 }
 .home-content h1{
-    font-size: 80px;
+    font-size: clamp(2.5rem, 5vw, 80px);
 }
 
 .home-content p{
@@ -31,11 +31,11 @@
     border-radius: 50%;
     border: 4px solid #9e2525;
     box-shadow: 0 0 10px #9e2525, 0 0 20px #9e2525, 0 0 30px #9e2525;
-    width: 470px ;
+    width: clamp(220px, 28vw, 470px);
     height: auto;
     transition: ease-in-out 0.3s;
-    
-     
+
+
 }
 
 .home-img img:hover{
@@ -53,7 +53,7 @@
 }
 
 .c-btn{
-   width: 15vw;
+   width: clamp(140px, 15vw, 220px);
    background-color: #ca4747;
    display: inline-flex;
   align-items: center;
@@ -83,6 +83,17 @@ i:hover{
 }
 
 @media (max-width: 1024px) {
+    .home{
+        flex-wrap: wrap;
+        justify-content: center!important;
+        padding-right: 1.5rem;
+        row-gap: 2rem;
+    }
+
+    .home-content{
+        align-items: center!important;
+    }
+
     .social{
         width: 100%;
         display: flex;

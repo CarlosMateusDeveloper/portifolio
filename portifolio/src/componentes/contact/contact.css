@@ -6,8 +6,9 @@
 
 
 .contact-img img{
+    width: 100%;
     max-width: 550px;
-    margin-left: 200px;
+    margin-left: clamp(0px, 8vw, 200px);
     cursor: pointer;
     border: 2px solid #9e2525;
     transition: ease-in-out 0.5s;

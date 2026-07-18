@@ -5,9 +5,23 @@
     transition: transform 0.3s ease;
     color: white;
     min-width: 10vw;
-    height: clamp(70vh, 67vh, 110vh);
+    height: clamp(420px, 60vh, 560px);
     margin-bottom: 30px;
-    overflow: visible; 
+    overflow: visible;
+}
+
+.card-content{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    min-height: 0;
 }
     
 .my-card:hover{
@@ -21,6 +35,8 @@
     border-radius: 40px;
     background-color: #d50202;
     color: white;
+    margin-top: auto;
+    align-self: flex-start;
 }
 
 .btn:hover{
@@ -31,8 +47,10 @@
 .card-content img{
     width: 100%;
     height: clamp(150px, 30vh, 250px);
-    object-fit: cover;
+    object-fit: contain;
+    background-color: #0a0a0a;
     border-radius: 7px 7px 0 0;
+    flex-shrink: 0;
 }
 
 .title{
@@ -48,9 +66,14 @@
 }
 
 @media (max-width: 768px) {
+    .my-card{
+        height: auto;
+        min-height: 380px;
+    }
+
     .card-content img{
-        width: clamp(100%, 100%, 100%);
-        height: clamp(200px, 25vh, 200px);
+        width: 100%;
+        height: 200px;
     }
     .title{
     font-size: 1.2rem;

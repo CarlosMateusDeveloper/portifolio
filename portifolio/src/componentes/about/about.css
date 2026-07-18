@@ -1,6 +1,7 @@
 .about{
     background-color: #000000;
-    height: clamp(110vh, auto, 120vh);
+    min-height: 100vh;
+    padding-block: 4rem;
 }
 
 .about h1{
@@ -104,6 +105,28 @@
   transition: transform 0.1s ease;
   user-select: none;
 }
+@media (max-width: 1024px) {
+  .about-text{
+    max-width: 100%!important;
+  }
+
+  .content{
+    width: 100%;
+    justify-content: center;
+  }
+
+  .about-content{
+    flex-direction: column!important;
+    align-items: center!important;
+  }
+
+  .tab-container{
+    flex-direction: column!important;
+    align-items: center;
+    width: 100%;
+  }
+}
+
 @media (max-width: 768px) {
   .about-content{
     display: flex!important;
