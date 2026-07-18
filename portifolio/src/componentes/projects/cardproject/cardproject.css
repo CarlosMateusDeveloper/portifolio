@@ -38,7 +38,7 @@
     background-color: #d50202;
     color: white;
     margin-top: auto;
-    align-self: flex-start;
+    align-self: center;
 }
 
 .btn:hover{
@@ -59,6 +59,7 @@
     font-size: 1.5rem;
     font-weight: 700;
     min-height: 70px;
+    margin-bottom: 0.25rem;
 }
 
 .description{
