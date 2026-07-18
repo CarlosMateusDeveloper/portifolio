@@ -34,8 +34,8 @@ export default function Projects() {
                     <div className='project-content col-12 col-md-6 col-lg-4'>
                         <CardProject 
                        img={painel}
-                       title="Sistema de gestão de clinicas"
-                       description={'Portfólio web desenvolvido para empresa de engenharia civil, adaptação para diferentes dispositivos.'}
+                       title="beemo.io"
+                       description={'CRM de gestão para clínicas e hospitais, com foco na automação de processos administrativos.'}
                        link=""
                         button='Em breve'
                         />
