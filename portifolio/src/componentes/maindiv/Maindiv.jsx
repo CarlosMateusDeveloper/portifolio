@@ -6,7 +6,7 @@ export default function Maindiv() {
         <div className="home-content reveal d-fex flex-column justify-content-center align-items-center mb-5 pe-md-5">
           <h1 className='text-center text-lg-end '><span>Mateus Gonçalves</span> </h1>  
           <h3 className="typing-text text-center text-lg-end">Desenvolvedor de Software</h3>
-          <p className='text-secondary fs-5 text-end ms-0 ms-md-auto'>Desenvolvedor de software com foco em IA aplicada. Transformo desafios de negócio em soluções digitais úteis, combinando automação, engenharia segura e experiência do usuário.</p>
+          <p className='text-secondary fs-5 text-end ms-0 ms-md-auto'>Desenvolvo software com IA para transformar desafios de negócio em oportunidades de receita.</p>
 
           <div className="social d-flex gap-3 justify-content-end  mb-5 pb-4">
             
