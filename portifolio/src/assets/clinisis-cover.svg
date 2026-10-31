@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="36" y1="45" x2="1154" y2="655" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E8F5F5"/>
+      <stop offset="1" stop-color="#CBE5E8"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="116" y1="125" x2="340" y2="543" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#164C5A"/>
+      <stop offset="1" stop-color="#0D3440"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" rx="28" fill="url(#bg)"/>
+  <rect x="60" y="54" width="1080" height="567" rx="22" fill="#F8FCFC" stroke="#B8D5D8" stroke-width="2"/>
+  <path d="M82 54h236v567H82c-12.15 0-22-9.85-22-22V76c0-12.15 9.85-22 22-22Z" fill="url(#accent)"/>
+  <circle cx="117" cy="105" r="20" fill="#69D1C5"/>
+  <path d="M108 105h18M117 96v18" stroke="#0D3440" stroke-width="5" stroke-linecap="round"/>
+  <text x="150" y="112" fill="#F4FFFF" font-family="Arial,sans-serif" font-size="24" font-weight="700" letter-spacing="2">CLINISIS</text>
+  <rect x="102" y="163" width="150" height="42" rx="12" fill="#286371"/>
+  <circle cx="124" cy="184" r="7" fill="#8FE1D7"/>
+  <text x="143" y="190" fill="#FFFFFF" font-family="Arial,sans-serif" font-size="15">Visão geral</text>
+  <g fill="#B4D0D3" font-family="Arial,sans-serif" font-size="15">
+    <text x="128" y="244">Pacientes</text>
+    <text x="128" y="292">Agenda</text>
+    <text x="128" y="340">Atendimentos</text>
+    <text x="128" y="388">Relatórios</text>
+  </g>
+  <g stroke="#80AEB2" stroke-width="2" opacity=".8">
+    <circle cx="112" cy="238" r="5"/><rect x="107" y="277" width="10" height="10" rx="2"/><path d="M107 329h10v10h-10zM107 378h10v10h-10z"/>
+  </g>
+  <text x="356" y="112" fill="#173943" font-family="Arial,sans-serif" font-size="29" font-weight="700">Painel da clínica</text>
+  <text x="356" y="142" fill="#68858A" font-family="Arial,sans-serif" font-size="15">Organização para cuidar melhor</text>
+  <rect x="356" y="173" width="238" height="116" rx="16" fill="#FFFFFF" stroke="#D7E8E9"/>
+  <rect x="614" y="173" width="238" height="116" rx="16" fill="#FFFFFF" stroke="#D7E8E9"/>
+  <rect x="872" y="173" width="238" height="116" rx="16" fill="#FFFFFF" stroke="#D7E8E9"/>
+  <text x="380" y="208" fill="#68858A" font-family="Arial,sans-serif" font-size="14">Atendimentos</text>
+  <text x="380" y="251" fill="#173943" font-family="Arial,sans-serif" font-size="24" font-weight="700">Agenda do dia</text>
+  <path d="M551 233a22 22 0 1 1-44 0 22 22 0 0 1 44 0Z" fill="#DDF4EF"/>
+  <path d="M529 220v14l9 5" stroke="#24A890" stroke-width="3" stroke-linecap="round"/>
+  <text x="638" y="208" fill="#68858A" font-family="Arial,sans-serif" font-size="14">Cadastro</text>
+  <text x="638" y="251" fill="#173943" font-family="Arial,sans-serif" font-size="24" font-weight="700">Prontuários</text>
+  <circle cx="809" cy="233" r="22" fill="#DDF4EF"/>
+  <path d="M809 221v24m-12-12h24" stroke="#24A890" stroke-width="3" stroke-linecap="round"/>
+  <text x="896" y="208" fill="#68858A" font-family="Arial,sans-serif" font-size="14">Gestão</text>
+  <text x="896" y="251" fill="#173943" font-family="Arial,sans-serif" font-size="24" font-weight="700">Rotina clínica</text>
+  <circle cx="1067" cy="233" r="22" fill="#DDF4EF"/>
+  <path d="m1057 234 7 7 14-16" stroke="#24A890" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="356" y="310" width="754" height="277" rx="16" fill="#FFFFFF" stroke="#D7E8E9"/>
+  <text x="382" y="350" fill="#173943" font-family="Arial,sans-serif" font-size="19" font-weight="700">Agenda</text>
+  <text x="382" y="377" fill="#829DA1" font-family="Arial,sans-serif" font-size="13">Acompanhamento dos atendimentos</text>
+  <g>
+    <rect x="382" y="399" width="702" height="48" rx="10" fill="#F1F8F8"/>
+    <circle cx="412" cy="423" r="13" fill="#BFE9E3"/>
+    <text x="440" y="428" fill="#31565C" font-family="Arial,sans-serif" font-size="15" font-weight="600">Paciente</text>
+    <text x="714" y="428" fill="#69878C" font-family="Arial,sans-serif" font-size="14">Consulta</text>
+    <text x="974" y="428" fill="#24A890" font-family="Arial,sans-serif" font-size="13">Confirmado</text>
+    <rect x="382" y="460" width="702" height="48" rx="10" fill="#F8FBFB"/>
+    <circle cx="412" cy="484" r="13" fill="#E5DDF4"/>
+    <text x="440" y="489" fill="#31565C" font-family="Arial,sans-serif" font-size="15" font-weight="600">Paciente</text>
+    <text x="714" y="489" fill="#69878C" font-family="Arial,sans-serif" font-size="14">Retorno</text>
+    <text x="974" y="489" fill="#D58F25" font-family="Arial,sans-serif" font-size="13">Aguardando</text>
+    <rect x="382" y="521" width="702" height="48" rx="10" fill="#F8FBFB"/>
+    <circle cx="412" cy="545" r="13" fill="#F3DFD5"/>
+    <text x="440" y="550" fill="#31565C" font-family="Arial,sans-serif" font-size="15" font-weight="600">Paciente</text>
+    <text x="714" y="550" fill="#69878C" font-family="Arial,sans-serif" font-size="14">Avaliação</text>
+    <text x="974" y="550" fill="#69878C" font-family="Arial,sans-serif" font-size="13">Agendado</text>
+  </g>
+  <text x="900" y="604" fill="#86A5A8" font-family="Arial,sans-serif" font-size="10" letter-spacing="1">ILUSTRAÇÃO CONCEITUAL</text>
+</svg>

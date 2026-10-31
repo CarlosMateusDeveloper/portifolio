@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="64" y1="12" x2="1137" y2="657" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#170E12"/>
+      <stop offset="1" stop-color="#08090D"/>
+    </linearGradient>
+    <linearGradient id="art" x1="193" y1="171" x2="558" y2="548" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6C2931"/>
+      <stop offset="1" stop-color="#1C161E"/>
+    </linearGradient>
+    <linearGradient id="seal" x1="787" y1="221" x2="1036" y2="481" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFC65B"/>
+      <stop offset="1" stop-color="#DC762D"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" rx="28" fill="url(#bg)"/>
+  <circle cx="1022" cy="147" r="170" fill="#7D1825" opacity=".13"/>
+  <circle cx="166" cy="565" r="205" fill="#C13D42" opacity=".08"/>
+  <text x="62" y="80" fill="#F6F1F1" font-family="Arial,sans-serif" font-size="24" font-weight="700" letter-spacing="3">JESUS PROTOCOL</text>
+  <text x="63" y="112" fill="#A99498" font-family="Arial,sans-serif" font-size="15">Proveniência digital para imagens</text>
+  <rect x="62" y="149" width="1076" height="464" rx="24" fill="#100E12" stroke="#39242A" stroke-width="2"/>
+  <rect x="90" y="177" width="442" height="408" rx="18" fill="url(#art)"/>
+  <path d="M90 467c68-59 129-111 207-108 49 2 67 40 110 34 43-6 73-43 125-25v199H90V467Z" fill="#241A22"/>
+  <circle cx="403" cy="269" r="54" fill="#F1B64E" opacity=".78"/>
+  <path d="m90 489 102-99 89 72 91-111 160 127v107H90V489Z" fill="#15141A"/>
+  <path d="M90 470 282 354l90 109 67-82 90 74" stroke="#E77A52" stroke-width="3" opacity=".66"/>
+  <rect x="115" y="203" width="173" height="32" rx="16" fill="#26171D" stroke="#583039"/>
+  <circle cx="134" cy="219" r="5" fill="#F27861"/>
+  <text x="149" y="224" fill="#F3D8D5" font-family="Arial,sans-serif" font-size="13" letter-spacing="1">ARQUIVO DIGITAL</text>
+  <rect x="571" y="177" width="537" height="408" rx="18" fill="#151218" stroke="#34262D"/>
+  <text x="604" y="224" fill="#A99498" font-family="Arial,sans-serif" font-size="14" letter-spacing="2">REGISTRO DE PROVENIÊNCIA</text>
+  <text x="604" y="266" fill="#F5EEEE" font-family="Arial,sans-serif" font-size="25" font-weight="700">Verificação de origem</text>
+  <rect x="604" y="292" width="471" height="1" fill="#382B32"/>
+  <circle cx="841" cy="405" r="91" fill="#2B1C1E" stroke="#69342B" stroke-width="2"/>
+  <circle cx="841" cy="405" r="69" fill="url(#seal)"/>
+  <circle cx="841" cy="405" r="52" fill="#201419"/>
+  <path d="m813 405 19 19 38-40" stroke="#FFD77E" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="755" y="518" fill="#F2E8E8" font-family="Arial,sans-serif" font-size="19" font-weight="600">Registro vinculado</text>
+  <rect x="604" y="544" width="471" height="18" rx="9" fill="#251D24"/>
+  <rect x="604" y="544" width="327" height="18" rx="9" fill="#A94348"/>
+  <text x="604" y="329" fill="#8E7B82" font-family="Arial,sans-serif" font-size="13">HASH CRIPTOGRÁFICO</text>
+  <text x="604" y="350" fill="#DCCED1" font-family="monospace" font-size="14">8a21c6…4f09b2</text>
+  <g transform="translate(1024 197)">
+    <circle cx="28" cy="28" r="25" fill="#F5A623"/>
+    <path d="M31 12v32m-7-26h10a6 6 0 0 1 0 12h-9m-1 0h11a6 6 0 0 1 0 12H22" stroke="#542E12" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  <text x="604" y="574" fill="#806F75" font-family="Arial,sans-serif" font-size="11" letter-spacing="1">ILUSTRAÇÃO CONCEITUAL</text>
+</svg>

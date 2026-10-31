@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="80" y1="40" x2="1120" y2="660" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#10221F"/>
+      <stop offset="1" stop-color="#07110F"/>
+    </linearGradient>
+    <linearGradient id="sun" x1="930" y1="130" x2="1095" y2="294" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFE58A"/>
+      <stop offset="1" stop-color="#F5A623"/>
+    </linearGradient>
+    <linearGradient id="chart" x1="380" y1="500" x2="1020" y2="337" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#43D6A2" stop-opacity=".05"/>
+      <stop offset="1" stop-color="#43D6A2" stop-opacity=".34"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" rx="28" fill="url(#bg)"/>
+  <circle cx="1020" cy="202" r="96" fill="url(#sun)" opacity=".95"/>
+  <g opacity=".3" stroke="#FFD878" stroke-width="3">
+    <path d="M1020 67V35M1020 369v-32M885 202h-32m334 0h-32M924 106l-23-23m238 238-23-23m0-192 23-23M901 321l23-23"/>
+  </g>
+  <path d="M0 428c155-51 273-35 422 10 140 42 271 49 435-9 119-42 230-32 343 16v230H0V428Z" fill="#0B1B17"/>
+  <path d="M0 493c146-37 289-13 413 26 177 55 282 31 438-16 126-38 245-29 349 11" stroke="#16342B" stroke-width="4"/>
+  <text x="64" y="79" fill="#F5F5F5" font-family="Arial,sans-serif" font-size="28" font-weight="700" letter-spacing="5">SUNNER</text>
+  <circle cx="45" cy="69" r="11" fill="#F8C64E"/>
+  <rect x="64" y="126" width="1072" height="466" rx="24" fill="#0D1715" stroke="#274138" stroke-width="2"/>
+  <text x="98" y="176" fill="#F5F7F5" font-family="Arial,sans-serif" font-size="24" font-weight="600">Energia em um só lugar</text>
+  <text x="98" y="207" fill="#82948D" font-family="Arial,sans-serif" font-size="15">Acompanhe o desempenho da sua operação solar</text>
+  <rect x="98" y="235" width="270" height="92" rx="15" fill="#15241F" stroke="#263C33"/>
+  <rect x="388" y="235" width="270" height="92" rx="15" fill="#15241F" stroke="#263C33"/>
+  <rect x="678" y="235" width="270" height="92" rx="15" fill="#15241F" stroke="#263C33"/>
+  <text x="120" y="269" fill="#8DA49A" font-family="Arial,sans-serif" font-size="15">Acompanhamento</text>
+  <text x="120" y="306" fill="#F3F8F4" font-family="Arial,sans-serif" font-size="24" font-weight="700">Energia gerada</text>
+  <text x="410" y="269" fill="#8DA49A" font-family="Arial,sans-serif" font-size="15">Monitoramento</text>
+  <text x="410" y="306" fill="#F3F8F4" font-family="Arial,sans-serif" font-size="24" font-weight="700">Usinas solares</text>
+  <text x="700" y="269" fill="#8DA49A" font-family="Arial,sans-serif" font-size="15">Visão financeira</text>
+  <text x="700" y="306" fill="#F3F8F4" font-family="Arial,sans-serif" font-size="24" font-weight="700">Indicadores</text>
+  <rect x="98" y="349" width="836" height="205" rx="15" fill="#101D19" stroke="#263C33"/>
+  <text x="122" y="383" fill="#E3ECE7" font-family="Arial,sans-serif" font-size="16" font-weight="600">Produção de energia</text>
+  <text x="122" y="408" fill="#84988E" font-family="Arial,sans-serif" font-size="13">Últimos 7 dias</text>
+  <path d="M130 508c59-24 86-21 136-47 44-23 73-15 119-38 50-25 73-12 123-37 48-24 82-7 126-35 47-30 73-10 120-35 40-21 75-15 130-41v151H130v82Z" fill="url(#chart)"/>
+  <path d="M130 508c59-24 86-21 136-47 44-23 73-15 119-38 50-25 73-12 123-37 48-24 82-7 126-35 47-30 73-10 120-35 40-21 75-15 130-41" stroke="#43D6A2" stroke-width="5" stroke-linecap="round"/>
+  <rect x="956" y="349" width="154" height="205" rx="15" fill="#15241F" stroke="#263C33"/>
+  <text x="977" y="383" fill="#E3ECE7" font-family="Arial,sans-serif" font-size="16" font-weight="600">Status da usina</text>
+  <circle cx="1033" cy="455" r="38" fill="#183A2F"/>
+  <path d="m1016 455 12 12 24-27" stroke="#43D6A2" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="1000" y="520" fill="#B8C9C0" font-family="Arial,sans-serif" font-size="14">Operação normal</text>
+  <text x="960" y="578" fill="#667B72" font-family="Arial,sans-serif" font-size="11" letter-spacing="1">ILUSTRAÇÃO CONCEITUAL</text>
+</svg>

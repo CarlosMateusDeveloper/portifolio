@@ -1,8 +1,8 @@
 import './projects.css'
 import CardProject from './cardproject/cardproject'
-import dashboardImg from '../../assets/dashboard_resized.png'
-import painel from '../../assets/paineldedados.png'
-import protocolImg from '../../assets/foto-projects.jpg'
+import sunnerCover from '../../assets/sunner-cover.svg'
+import clinisisCover from '../../assets/clinisis-cover.svg'
+import protocolCover from '../../assets/jesus-protocol-cover.svg'
 
 export default function Projects() {
     return (
@@ -12,7 +12,7 @@ export default function Projects() {
                 <div className='project-container d-flex flex-row flex-wrap gap-3 px-5 justify-content-center'>
                     <div className="project-content col-12 col-md-6 col-lg-4">
                         <CardProject
-                            img={dashboardImg}
+                            img={sunnerCover}
                             title="Sunner"
                             description="SaaS desenvolvido para o mercado de energia solar, conectando tecnologia às necessidades de empresas e profissionais do setor."
                             link="https://sunner.com.br"
@@ -21,7 +21,7 @@ export default function Projects() {
                     </div>
                     <div className="project-content col-12 col-md-6 col-lg-4">
                         <CardProject
-                            img={painel}
+                            img={clinisisCover}
                             title="Clinisis"
                             description="Sistema para gestão de clínicas, pensado para apoiar a organização das rotinas e do atendimento."
                             link="https://github.com/CarlosMateusDeveloper?tab=repositories"
@@ -30,7 +30,7 @@ export default function Projects() {
                     </div>
                     <div className='project-content col-12 col-md-6 col-lg-4'>
                         <CardProject
-                            img={protocolImg}
+                            img={protocolCover}
                             title="Jesus Protocol"
                             description="Protocolo de proveniência digital que usa a rede Bitcoin para ajudar a comprovar a autenticidade de imagens."
                             link="https://github.com/CarlosMateusDeveloper/jesusProtocol"
