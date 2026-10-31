@@ -1,48 +1,35 @@
 import "./about.css";
-import foto from "../../assets/fotoportifolio-1.png";
-import foto2 from "../../assets/foto2.png";
+
+const highlights = [
+  { label: "Formação", title: "Sistemas para Internet", detail: "IFRN" },
+  { label: "Atuação atual", title: "Estagiário", detail: "Luxem" },
+  { label: "Experiência", title: "SaaS", detail: "Energia solar" },
+];
+
 export default function About() {
   return (
-    <section className="about p-4 container-fluid" id="about">
-      <h1 className="text-center reveal">Sobre mim</h1>
-      <div className="about-content reveal d-flex flex-row pt-4 ">
-        <div className="tab-container d-flex flex-row justify-content-evenly tab-wrapper">
-          <input type="radio" name="tab" id="tab1" defaultChecked hidden />
-          <input type="radio" name="tab" id="tab2" hidden />
-          <input type="radio" name="tab" id="tab3" hidden />
-          <div className="tabs">
-            <label className="text-secondary fs-2" htmlFor="tab1">
-               Sobre mim
-            </label>
-            <label className="text-secondary fs-2" htmlFor="tab2">
-              Foco Técnico
-            </label>
-          </div>
+    <section className="about container-fluid" id="about">
+      <div className="about-inner reveal">
+        <div className="about-copy">
+          <span className="about-eyebrow">Sobre mim</span>
+          <h2>Software, IA e visão de produto</h2>
+          <p>
+            Sou desenvolvedor de software e estudante de Sistemas para Internet
+            no IFRN. Atualmente, faço estágio na Luxem e tenho experiência
+            desenvolvendo SaaS para o mercado de energia solar, como o Sunner.
+            Uno engenharia de software, IA e experiência do usuário para criar
+            produtos que ajudam negócios a crescer.
+          </p>
+        </div>
 
-          <div className="content d-flex flex-row ">
-            <div id="c1" className="tab-content text-start ">
-              <p className="about-text text-white  align-content-center fs-4 text-wrap ">
-                Sou um empreendedor e foco em criar soluções que gerem valor real. Trabalho gerando valor e destacando o que eu faço dos demais. Não quero fazer mais do mesmo, e sim algo que esteja sempre na frente. <hr />
-                Crio soluções que organizam processos, corta custos e aumentam a eficiencia dentro de uma instituição.
-              </p>
-              <img className="rounded-3 animate-float img" src={foto} alt="" />
-            </div>
-            <div id="c2" className="tab-content text-end">
-              <p className="about-text text-white  ps-0 pe-4  align-content-center text-start fs-4 ">
-                Meu foco técnico está em desenvolvimento web com React e NodeJS, além de usar Python para
-                automações e aprendizado de maquinas. <br />
-                <hr />
-                Busco oportunidades como Estagiário ou
-                Desenvolvedor Júnior e estou disponível para atuar
-                de forma presencial,no modelo híbrido ou remoto.
-              </p>
-              <img
-                className=" rounded-3 animate-float img"
-                src={foto2}
-                alt=""
-              />
-            </div>
-          </div>
+        <div className="about-highlights" aria-label="Formação e experiência">
+          {highlights.map(({ label, title, detail }) => (
+            <article className="about-highlight" key={label}>
+              <span className="about-highlight-label">{label}</span>
+              <h3>{title}</h3>
+              <p>{detail}</p>
+            </article>
+          ))}
         </div>
       </div>
     </section>
