@@ -1,8 +1,8 @@
 import './projects.css'
 import CardProject from './cardproject/cardproject'
-import buildImg from '../../assets/projectImg1.png'
 import dashboardImg from '../../assets/dashboard_resized.png'
 import painel from '../../assets/paineldedados.png'
+import protocolImg from '../../assets/foto-projects.jpg'
 
 export default function Projects() {
     return (
@@ -11,61 +11,33 @@ export default function Projects() {
                 <h1 className='text-white mb-5'>Meus Projetos</h1>
                 <div className='project-container d-flex flex-row flex-wrap gap-3 px-5 justify-content-center'>
                     <div className="project-content col-12 col-md-6 col-lg-4">
-                        {/*Card 1*/}
-                       <CardProject 
-                       img={buildImg}
-                       title="Portifólio de Construtora"
-                       description={'Portfólio web desenvolvido para empresa de engenharia civil, adaptação para diferentes dispositivos.'}
-                       link=""
-                       button="Acessar"
-                       />
+                        <CardProject
+                            img={dashboardImg}
+                            title="Sunner"
+                            description="SaaS desenvolvido para o mercado de energia solar, conectando tecnologia às necessidades de empresas e profissionais do setor."
+                            link="https://sunner.com.br"
+                            button="Acessar site"
+                        />
                     </div>
                     <div className="project-content col-12 col-md-6 col-lg-4">
-                        {/*Card 2*/}
-                        <CardProject 
-                       img={dashboardImg}
-                       title="Automação de alimentação de planilha"
-                       description={'Automação que extrai dados de comprovantes bancários e alimenta uma planilha.'}
-                       link='https://github.com/CarlosMateusDeveloper/Data-IA'
-                       button='Acessar'
-                       />
+                        <CardProject
+                            img={painel}
+                            title="Clinisis"
+                            description="Sistema para gestão de clínicas, pensado para apoiar a organização das rotinas e do atendimento."
+                            link="https://github.com/CarlosMateusDeveloper?tab=repositories"
+                            button="Ver no GitHub"
+                        />
                     </div>
-                        {/*Card 3*/}
                     <div className='project-content col-12 col-md-6 col-lg-4'>
-                        <CardProject 
-                       img={painel}
-                       title="beemo.io"
-                       description={'CRM de gestão para clínicas e hospitais, com foco na automação de processos administrativos.'}
-                       link=""
-                        button='Em breve'
+                        <CardProject
+                            img={protocolImg}
+                            title="Jesus Protocol"
+                            description="Protocolo de proveniência digital que usa a rede Bitcoin para ajudar a comprovar a autenticidade de imagens."
+                            link="https://github.com/CarlosMateusDeveloper/jesusProtocol"
+                            button="Ver no GitHub"
                         />
                     </div>
                 </div>
-                {/* <div className='d-flex flex-row gap-3'> */}
-                    {/* <div className='project-content col-12 col-md-6 col-lg-4'>
-                        {/*Card 4*/}
-                        {/* <CardProject 
-                       img={""}
-                       title="Projeto 4"
-                       link=""/>
-                    </div>
-                    <div className='project-content col-12 col-md-6 col-lg-4'>
-                        {/*Card 5*/}
-                        {/* <CardProject 
-                       img={""}
-                       title="Projeto 5"
-                       link=""/>
-                    </div> */} 
-                    {/* <div className='project-content col-12 col-md-6 col-lg-4'>
-                         {/*Card 6*/}
-                        {/* <CardProject 
-                       img={""}
-                       title="Projeto 6"
-                       link=""/>    
-                    </div> */}
-                 {/* </div>  */}
-                    
-                       
             </div> 
             
         </section>
